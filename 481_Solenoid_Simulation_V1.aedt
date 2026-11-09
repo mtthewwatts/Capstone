@@ -235,8 +235,8 @@ $begin 'AnsoftProject'
 				$end 'Properties'
 				CompExtID=6
 				$begin 'Parameters'
-					MenuProp('CoSimulator', 'D', '', 'DefaultNetlist', 0)
 					ButtonProp('CosimDefinition', 'D', '', 'Edit', 'Edit', 40501, ButtonPropClientData())
+					MenuProp('CoSimulator', 'D', '', 'DefaultNetlist', 0)
 				$end 'Parameters'
 				$begin 'CosimDefinitions'
 					$begin 'CosimDefinition'
@@ -303,7 +303,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=7
+				DataVersion=9
 				NativeKernel='PARASOLID'
 				NativeKernelVersionID=25
 				Units='in'
@@ -1591,7 +1591,7 @@ $begin 'AnsoftProject'
 					Objects(58)
 					ParentBndID=-1
 					Current='10000A'
-					IsPositive=true
+					IsPositive=false
 				$end 'Current1'
 			$end 'Boundaries'
 			$begin 'ProductSpecificData'
@@ -1789,8 +1789,8 @@ $begin 'AnsoftProject'
 				$begin 'Setup'
 					N='Setup1'
 					V=0
-					Soln(N='AdaptivePass', V=0)
-					Soln(N='LastAdaptive', V=0)
+					Soln(N='AdaptivePass', V=123)
+					Soln(N='LastAdaptive', V=123)
 				$end 'Setup'
 			$end 'Version ID Map'
 			$begin 'ID Map'
@@ -1841,7 +1841,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=3
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						Circuit(Editor3d(View('View Orientation Gadget'=1, WindowPos(3, -1, -1, -11, -45, 38, 38, 1294, 384), OrientationMatrix(0.899997234344482, -5.36441802978516e-07, 1.0132788474948e-06, 0, -9.5367431640625e-07, 4.76837158203125e-07, -0.899997174739838, 0, -5.49480319023132e-07, 0.89999657869339, -5.0663948059082e-07, 0, -1.75498032569885, -0.637640595436096, -7.34457206726074, 1, 0, -2.95343589782715, -0.253709673881531, -1.53780436515808, 0.0826872289180756, -4.93587970733643, 15.1886701583862), Drawings[6: 'Bgnd', 'Coil', 'Plugnut', 'Core', 'Yoke', 'Bonnet'], 'View Data'('Render Mode'=1, 'Show Ruler'=0, 'Coordinate Systems View Mode'=1, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=0.1, dYForGrid=0.1, dZForGrid=0.1, dRForGrid=0.1, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						Circuit(Editor3d(View('View Orientation Gadget'=1, WindowPos(3, -1, -1, -11, -45, 38, 38, 1294, 384), OrientationMatrix(0.899997234344482, -5.36441802978516e-07, 1.0132788474948e-06, 0, -9.5367431640625e-07, 4.76837158203125e-07, -0.899997174739838, 0, -5.49480319023132e-07, 0.89999657869339, -5.0663948059082e-07, 0, -1.75498032569885, -0.637640595436096, -7.34457206726074, 1, 0, -3.67426562309265, -0.0729951858520508, -1.68773102760315, 0.473906517028809, -4.93587970733643, 15.1886701583862), Drawings[6: 'Bgnd', 'Coil', 'Plugnut', 'Core', 'Yoke', 'Bonnet'], 'View Data'('Render Mode'=1, 'Show Ruler'=0, 'Coordinate Systems View Mode'=1, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=0.1, dYForGrid=0.1, dZForGrid=0.1, dRForGrid=0.1, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
