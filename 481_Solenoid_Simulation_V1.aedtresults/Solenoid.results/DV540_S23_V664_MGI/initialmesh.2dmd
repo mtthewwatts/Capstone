@@ -1,6 +1,6 @@
 '<header>'
    file_format_version 'ansoft_cmu_abstract_model_version 1.0.0'
-   mesh_file_checksum 'npts=162; nedges= 452; nelem= 291; nfacets= 6   201    29    13    29    15     4'
+   mesh_file_checksum 'npts=150; nedges= 419; nelem= 270; nfacets= 6   191    12    20    29    14     4'
 '</header>'
 '<model>'
    modelname 'no name'
@@ -25,70 +25,66 @@
       '</face>'
       '<edge>'
          edge_id 33
-         nseg 4
+         nseg 5
          '<segment>'
-            fromid 40
-            toid 135
+            fromid 114
+            toid 23
          '</segment>'
          '<segment>'
-            fromid 135
-            toid 47
-         '</segment>'
-         '<segment>'
-            fromid 47
+            fromid 23
             toid 43
          '</segment>'
          '<segment>'
             fromid 43
-            toid 56
+            toid 41
+         '</segment>'
+         '<segment>'
+            fromid 41
+            toid 127
+         '</segment>'
+         '<segment>'
+            fromid 127
+            toid 46
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 32
-         nseg 2
+         nseg 1
          '<segment>'
-            fromid 123
-            toid 45
-         '</segment>'
-         '<segment>'
-            fromid 45
-            toid 40
+            fromid 115
+            toid 114
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 31
-         nseg 4
+         nseg 5
          '<segment>'
-            fromid 122
-            toid 57
+            fromid 120
+            toid 45
          '</segment>'
          '<segment>'
-            fromid 57
+            fromid 45
             toid 48
          '</segment>'
          '<segment>'
             fromid 48
-            toid 44
+            toid 128
          '</segment>'
          '<segment>'
-            fromid 44
-            toid 123
+            fromid 128
+            toid 22
+         '</segment>'
+         '<segment>'
+            fromid 22
+            toid 115
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 34
-         nseg 3
+         nseg 1
          '<segment>'
-            fromid 56
-            toid 136
-         '</segment>'
-         '<segment>'
-            fromid 136
-            toid 137
-         '</segment>'
-         '<segment>'
-            fromid 137
-            toid 122
+            fromid 46
+            toid 120
          '</segment>'
       '</edge>'
       '<vertices>'
@@ -105,7 +101,7 @@
          face_id 56
          ncofacets 1
          '<cofacet>'
-            facet_id 5
+            facet_id 4
             order 0
          '</cofacet>'
       '</face>'
@@ -113,84 +109,80 @@
          edge_id 47
          nseg 5
          '<segment>'
-            fromid 54
-            toid 73
+            fromid 118
+            toid 55
          '</segment>'
          '<segment>'
-            fromid 73
-            toid 77
+            fromid 55
+            toid 129
          '</segment>'
          '<segment>'
-            fromid 77
-            toid 138
+            fromid 129
+            toid 10
          '</segment>'
          '<segment>'
-            fromid 138
-            toid 98
+            fromid 10
+            toid 67
          '</segment>'
          '<segment>'
-            fromid 98
-            toid 93
+            fromid 67
+            toid 116
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 46
          nseg 1
          '<segment>'
-            fromid 124
-            toid 54
+            fromid 121
+            toid 118
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 45
          nseg 1
          '<segment>'
-            fromid 126
-            toid 124
+            fromid 44
+            toid 121
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 44
          nseg 1
          '<segment>'
-            fromid 59
-            toid 126
+            fromid 117
+            toid 44
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 43
-         nseg 6
+         nseg 5
          '<segment>'
-            fromid 99
-            toid 139
+            fromid 71
+            toid 72
          '</segment>'
          '<segment>'
-            fromid 139
-            toid 104
+            fromid 72
+            toid 130
          '</segment>'
          '<segment>'
-            fromid 104
-            toid 75
+            fromid 130
+            toid 58
          '</segment>'
          '<segment>'
-            fromid 75
-            toid 76
+            fromid 58
+            toid 57
          '</segment>'
          '<segment>'
-            fromid 76
-            toid 9
-         '</segment>'
-         '<segment>'
-            fromid 9
-            toid 59
+            fromid 57
+            toid 117
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 48
          nseg 1
          '<segment>'
-            fromid 93
-            toid 99
+            fromid 116
+            toid 71
          '</segment>'
       '</edge>'
       '<vertices>'
@@ -207,7 +199,7 @@
          face_id 68
          ncofacets 1
          '<cofacet>'
-            facet_id 6
+            facet_id 5
             order 0
          '</cofacet>'
       '</face>'
@@ -215,84 +207,72 @@
          edge_id 61
          nseg 5
          '<segment>'
-            fromid 125
-            toid 118
+            fromid 119
+            toid 111
          '</segment>'
          '<segment>'
-            fromid 118
+            fromid 111
             toid 50
          '</segment>'
          '<segment>'
             fromid 50
-            toid 10
+            toid 11
          '</segment>'
          '<segment>'
-            fromid 10
-            toid 65
+            fromid 11
+            toid 63
          '</segment>'
          '<segment>'
-            fromid 65
-            toid 88
+            fromid 63
+            toid 83
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 60
          nseg 2
          '<segment>'
-            fromid 127
-            toid 140
+            fromid 47
+            toid 13
          '</segment>'
          '<segment>'
-            fromid 140
-            toid 125
+            fromid 13
+            toid 119
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 59
-         nseg 8
+         nseg 5
          '<segment>'
-            fromid 78
-            toid 141
+            fromid 73
+            toid 131
          '</segment>'
          '<segment>'
-            fromid 141
-            toid 69
+            fromid 131
+            toid 132
          '</segment>'
          '<segment>'
-            fromid 69
-            toid 74
-         '</segment>'
-         '<segment>'
-            fromid 74
-            toid 142
-         '</segment>'
-         '<segment>'
-            fromid 142
-            toid 143
-         '</segment>'
-         '<segment>'
-            fromid 143
+            fromid 132
             toid 53
          '</segment>'
          '<segment>'
             fromid 53
-            toid 119
+            toid 56
          '</segment>'
          '<segment>'
-            fromid 119
-            toid 127
+            fromid 56
+            toid 47
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 62
          nseg 2
          '<segment>'
-            fromid 88
-            toid 7
+            fromid 83
+            toid 8
          '</segment>'
          '<segment>'
-            fromid 7
-            toid 78
+            fromid 8
+            toid 73
          '</segment>'
       '</edge>'
       '<vertices>'
@@ -309,7 +289,7 @@
          face_id 88
          ncofacets 1
          '<cofacet>'
-            facet_id 4
+            facet_id 6
             order 0
          '</cofacet>'
       '</face>'
@@ -317,39 +297,39 @@
          edge_id 77
          nseg 4
          '<segment>'
-            fromid 129
-            toid 144
+            fromid 124
+            toid 133
          '</segment>'
          '<segment>'
-            fromid 144
+            fromid 133
             toid 31
          '</segment>'
          '<segment>'
             fromid 31
-            toid 38
+            toid 39
          '</segment>'
          '<segment>'
-            fromid 38
-            toid 131
+            fromid 39
+            toid 126
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 76
          nseg 7
          '<segment>'
-            fromid 128
-            toid 67
+            fromid 122
+            toid 65
          '</segment>'
          '<segment>'
-            fromid 67
-            toid 121
+            fromid 65
+            toid 113
          '</segment>'
          '<segment>'
-            fromid 121
-            toid 145
+            fromid 113
+            toid 134
          '</segment>'
          '<segment>'
-            fromid 145
+            fromid 134
             toid 51
          '</segment>'
          '<segment>'
@@ -362,51 +342,51 @@
          '</segment>'
          '<segment>'
             fromid 34
-            toid 129
+            toid 124
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 75
          nseg 3
          '<segment>'
-            fromid 130
-            toid 146
+            fromid 125
+            toid 135
          '</segment>'
          '<segment>'
-            fromid 146
-            toid 147
+            fromid 135
+            toid 136
          '</segment>'
          '<segment>'
-            fromid 147
-            toid 128
+            fromid 136
+            toid 122
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 74
          nseg 1
          '<segment>'
-            fromid 97
-            toid 130
+            fromid 92
+            toid 125
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 73
          nseg 4
          '<segment>'
-            fromid 86
-            toid 87
+            fromid 81
+            toid 82
          '</segment>'
          '<segment>'
-            fromid 87
-            toid 148
+            fromid 82
+            toid 137
          '</segment>'
          '<segment>'
-            fromid 148
-            toid 94
+            fromid 137
+            toid 89
          '</segment>'
          '<segment>'
-            fromid 94
-            toid 97
+            fromid 89
+            toid 92
          '</segment>'
       '</edge>'
       '<edge>'
@@ -414,46 +394,46 @@
          nseg 7
          '<segment>'
             fromid 26
-            toid 149
+            toid 138
          '</segment>'
          '<segment>'
-            fromid 149
-            toid 150
+            fromid 138
+            toid 139
          '</segment>'
          '<segment>'
-            fromid 150
-            toid 151
+            fromid 139
+            toid 140
          '</segment>'
          '<segment>'
-            fromid 151
-            toid 152
+            fromid 140
+            toid 141
          '</segment>'
          '<segment>'
-            fromid 152
-            toid 153
+            fromid 141
+            toid 142
          '</segment>'
          '<segment>'
-            fromid 153
-            toid 154
+            fromid 142
+            toid 143
          '</segment>'
          '<segment>'
-            fromid 154
-            toid 86
+            fromid 143
+            toid 81
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 71
          nseg 4
          '<segment>'
-            fromid 36
-            toid 155
+            fromid 37
+            toid 144
          '</segment>'
          '<segment>'
-            fromid 155
-            toid 156
+            fromid 144
+            toid 145
          '</segment>'
          '<segment>'
-            fromid 156
+            fromid 145
             toid 33
          '</segment>'
          '<segment>'
@@ -465,8 +445,8 @@
          edge_id 78
          nseg 1
          '<segment>'
-            fromid 131
-            toid 36
+            fromid 126
+            toid 37
          '</segment>'
       '</edge>'
       '<vertices>'
@@ -491,48 +471,48 @@
          edge_id 95
          nseg 1
          '<segment>'
-            fromid 92
-            toid 132
+            fromid 87
+            toid 88
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 94
          nseg 1
          '<segment>'
-            fromid 90
-            toid 92
+            fromid 85
+            toid 87
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 93
          nseg 1
          '<segment>'
-            fromid 95
-            toid 90
+            fromid 90
+            toid 85
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 92
          nseg 1
          '<segment>'
-            fromid 94
-            toid 95
+            fromid 89
+            toid 90
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 91
          nseg 1
          '<segment>'
-            fromid 97
-            toid 94
+            fromid 92
+            toid 89
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 96
          nseg 1
          '<segment>'
-            fromid 132
-            toid 97
+            fromid 88
+            toid 92
          '</segment>'
       '</edge>'
       '<vertices>'
@@ -577,45 +557,37 @@
          edge_id 109
          nseg 7
          '<segment>'
-            fromid 3
-            toid 6
+            fromid 4
+            toid 7
          '</segment>'
          '<segment>'
-            fromid 6
-            toid 108
+            fromid 7
+            toid 102
          '</segment>'
          '<segment>'
-            fromid 108
-            toid 157
+            fromid 102
+            toid 146
          '</segment>'
          '<segment>'
-            fromid 157
-            toid 109
-         '</segment>'
-         '<segment>'
-            fromid 109
-            toid 11
-         '</segment>'
-         '<segment>'
-            fromid 11
-            toid 14
-         '</segment>'
-         '<segment>'
-            fromid 14
-            toid 20
-         '</segment>'
-      '</edge>'
-      '<edge>'
-         edge_id 108
-         nseg 4
-         '<segment>'
-            fromid 134
+            fromid 146
             toid 103
          '</segment>'
          '<segment>'
             fromid 103
-            toid 1
+            toid 12
          '</segment>'
+         '<segment>'
+            fromid 12
+            toid 15
+         '</segment>'
+         '<segment>'
+            fromid 15
+            toid 21
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 108
+         nseg 3
          '<segment>'
             fromid 1
             toid 2
@@ -624,93 +596,89 @@
             fromid 2
             toid 3
          '</segment>'
+         '<segment>'
+            fromid 3
+            toid 4
+         '</segment>'
       '</edge>'
       '<edge>'
          edge_id 107
-         nseg 16
-         '<segment>'
-            fromid 133
-            toid 114
-         '</segment>'
-         '<segment>'
-            fromid 114
-            toid 49
-         '</segment>'
-         '<segment>'
-            fromid 49
-            toid 123
-         '</segment>'
+         nseg 14
          '<segment>'
             fromid 123
-            toid 44
+            toid 115
          '</segment>'
          '<segment>'
-            fromid 44
+            fromid 115
+            toid 22
+         '</segment>'
+         '<segment>'
+            fromid 22
+            toid 128
+         '</segment>'
+         '<segment>'
+            fromid 128
             toid 48
          '</segment>'
          '<segment>'
             fromid 48
-            toid 57
+            toid 45
          '</segment>'
          '<segment>'
-            fromid 57
-            toid 122
+            fromid 45
+            toid 120
          '</segment>'
          '<segment>'
-            fromid 122
-            toid 60
+            fromid 120
+            toid 147
          '</segment>'
          '<segment>'
-            fromid 60
-            toid 158
+            fromid 147
+            toid 54
          '</segment>'
          '<segment>'
-            fromid 158
-            toid 159
+            fromid 54
+            toid 148
          '</segment>'
          '<segment>'
-            fromid 159
-            toid 160
+            fromid 148
+            toid 149
          '</segment>'
          '<segment>'
-            fromid 160
-            toid 96
+            fromid 149
+            toid 150
          '</segment>'
          '<segment>'
-            fromid 96
-            toid 161
+            fromid 150
+            toid 91
          '</segment>'
          '<segment>'
-            fromid 161
-            toid 162
+            fromid 91
+            toid 95
          '</segment>'
          '<segment>'
-            fromid 162
-            toid 102
-         '</segment>'
-         '<segment>'
-            fromid 102
-            toid 134
+            fromid 95
+            toid 1
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 110
          nseg 4
          '<segment>'
+            fromid 21
+            toid 20
+         '</segment>'
+         '<segment>'
             fromid 20
+            toid 110
+         '</segment>'
+         '<segment>'
+            fromid 110
             toid 19
          '</segment>'
          '<segment>'
             fromid 19
-            toid 117
-         '</segment>'
-         '<segment>'
-            fromid 117
-            toid 18
-         '</segment>'
-         '<segment>'
-            fromid 18
-            toid 133
+            toid 123
          '</segment>'
       '</edge>'
       '<vertices>'
@@ -723,15 +691,15 @@
       '</entry>'
       '<entry>'
          facet_id 4
-         face_id 88
-      '</entry>'
-      '<entry>'
-         facet_id 5
          face_id 56
       '</entry>'
       '<entry>'
-         facet_id 6
+         facet_id 5
          face_id 68
+      '</entry>'
+      '<entry>'
+         facet_id 6
+         face_id 88
       '</entry>'
       '<entry>'
          facet_id 7

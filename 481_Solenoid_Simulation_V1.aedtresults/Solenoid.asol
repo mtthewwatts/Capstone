@@ -1,187 +1,251 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002026, month=000000000011, day=000000000008, hour=000000000020, min=000000000046, sec=000000000034)
+    time(year=000000002026, month=000000000011, day=000000000009, hour=000000000021, min=000000000059, sec=000000000051)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000004898, lin=000000000174, lvl=000000000000)
+    $index$(pos=000000011363, lin=000000000227, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
-$begin 'SolutionBlock4'
-	SimSetupID=23
-	SimSetupName='Setup1'
-	VersionID=0
-	SolveSetupID=0
-	$begin 'CurrMeshes'
-		IDDblMap(64, 1, 67, 2, 68, 3, 69, 4, 70, 5, 71, 6, 121, 7, 148, 8)
-		$begin 'DataMap'
-			VID=26
-			Ver=0
-			M(DblID=121, Dir='DV26_S23_V0.cmesh121/')
-			M(DblID=148, Dir='DV26_S23_V0.cmesh148/')
-		$end 'DataMap'
-	$end 'CurrMeshes'
-	$begin 'LastPassNumbers'
-		LP(VID=26, Ver=0, P=7)
-	$end 'LastPassNumbers'
-	$begin 'Profiles'
-		P(VID=26, Ver=0, File='DV26_S23_V0.profile')
-	$end 'Profiles'
-	$begin 'MI'
-		$begin 'SubData'
-			ID=0
-			MI(VID=26, Ver=0, Dir='DV26_S23_MI0_V0.sd/')
-		$end 'SubData'
-	$end 'MI'
-	$begin 'MeshGeomInfo'
-		MGI(VID=26, Ver=0, Dir='DV26_S23_V0_MGI/')
-	$end 'MeshGeomInfo'
-$end 'SolutionBlock4'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=23, Instance=\'\', Solution=-3, VersionID=0)'='SolutionBlock5'
-	'SolutionKey(SimSetup=23, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock4'
-	'SolutionKey(SimSetup=23, Instance=\'SolutionDefinition\', Solution=24, VersionID=123)'='SolutionBlock10'
-	'SolutionKey(SimSetup=23, Instance=\'SolutionDefinition\', Solution=25, VersionID=123)'='SolutionBlock11'
-$end 'BlockMapName'
-$begin 'SolutionBlock11'
-	SolutionName='LastAdaptive'
-	SolutionID=25
-	V=123
-	$begin 'States'
-		F(VID=26, Ver=123)
-	$end 'States'
-	$begin 'Definition'
-		SamplingInterpolation=false
-		Frequencies()
-		SolutionType=1
-		CenterFreq=0
-	$end 'Definition'
-	$begin 'Fields'
-		IDDblMap(66, -1)
-		$begin 'DataMap'
-			VID=26
-			Ver=123
-			Field(DblID=66, Dir='DV26_SOL25_V123.Field66/')
-		$end 'DataMap'
-	$end 'Fields'
-	$begin 'PAR'
-		NextUniqueID=12
-		MoveBackwards=false
-		$begin 'SubData'
-			ID=0
-			Ver=9
-			PAR(VID=26, Ver=9, File='DV26_SOL25_PAR0_V9.sd')
-		$end 'SubData'
-		$begin 'SubData'
-			ID=1
-			Ver=9
-			PAR(VID=26, Ver=9, File='DV26_SOL25_PAR1_V9.sd')
-		$end 'SubData'
-	$end 'PAR'
-	$begin 'PD'
-		NextUniqueID=38
-		MoveBackwards=false
-		$begin 'SubData'
-			ID=0
-			Ver=26
-			PD(VID=26, Ver=26, File='DV26_SOL25_PD0_V26.sd')
-		$end 'SubData'
-	$end 'PD'
-$end 'SolutionBlock11'
-$begin 'SolutionBlock10'
-	SolutionName='AdaptivePass'
-	SolutionID=24
-	V=123
-	$begin 'States'
-		F(VID=26, Ver=123)
-	$end 'States'
-	$begin 'Definition'
-		SamplingInterpolation=false
-		Frequencies()
-		SolutionType=1
-		CenterFreq=0
-	$end 'Definition'
-	$begin 'PAR'
-		NextUniqueID=12
-		MoveBackwards=false
-		$begin 'SubData'
-			ID=0
-			Ver=9
-			PAR(VID=26, Ver=9, File='DV26_SOL24_PAR0_V9.sd')
-		$end 'SubData'
-		$begin 'SubData'
-			ID=1
-			Ver=9
-			PAR(VID=26, Ver=9, File='DV26_SOL24_PAR1_V9.sd')
-		$end 'SubData'
-	$end 'PAR'
-	$begin 'PD'
-		NextUniqueID=38
-		MoveBackwards=false
-		$begin 'SubData'
-			ID=0
-			Ver=26
-			PD(VID=26, Ver=26, File='DV26_SOL24_PD0_V26.sd')
-		$end 'SubData'
-	$end 'PD'
-	$begin 'NFSP'
-		$begin 'SubData'
-			ID=10
-			NFSP(VID=26, Ver=123, File='DV26_SOL24_NFSP10_V123.sd')
-		$end 'SubData'
-	$end 'NFSP'
-$end 'SolutionBlock10'
-$begin 'SolutionBlock5'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(de_ee='(9.1046, N/A)', te=2.032800876049973, ee=9.104591450396157, tri=346, p=1)
-	c(de_ee='(4.6858, 0.45806)', te=2.023489346228069, ee=4.685819769121292, tri=474, p=2, de=0.4580640401925459)
-	c(de_ee='(2.0963, 0.072366)', te=2.024953658538018, ee=2.096298689239168, tri=617, p=3, de=0.07236570395977163)
-	c(de_ee='(1.2232, 0.029433)', te=2.024357661186917, ee=1.223193421606741, tri=806, p=4, de=0.02943264151198822)
-	c(de_ee='(0.77487, 6.3918)', te=2.153751307104342, ee=0.7748699639036852, tri=1049, p=5, de=6.391837193510527)
-	c(de_ee='(0.42927, 13.047)', te=1.872749928425108, ee=0.4292749890081558, tri=1366, p=6, de=13.04706712201757)
-	c(de_ee='(0.20097, 0.012132)', te=1.872977136304502, ee=0.2009683463582591, tri=1781, p=7, de=0.01213231280616024)
-$end 'SolutionBlock5'
 $begin 'SolutionBlock1'
 	ProductName='Maxwell 2D'
 	CircuitName='Solenoid'
-	VersionID=13
+	VersionID=664
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=149
+	NextUniqueID=729
 	MoveBackwards=false
 	$begin 'VariationIDs'
 		Map(V='', ID=26)
+		Map(V='curr=\'-1A\' deltaGap=\'0.050000000000000003in\'', ID=553)
+		Map(V='curr=\'-1A\' deltaGap=\'0.10000000000000001in\'', ID=564)
+		Map(V='curr=\'-1A\' deltaGap=\'0.14999999999999999in\'', ID=575)
+		Map(V='curr=\'-1A\' deltaGap=\'0.20000000000000001in\'', ID=586)
+		Map(V='curr=\'-1A\' deltaGap=\'0.25in\'', ID=597)
+		Map(V='curr=\'-1A\' deltaGap=\'0.29999999999999999in\'', ID=608)
+		Map(V='curr=\'-1A\' deltaGap=\'0.34999999999999998in\'', ID=619)
+		Map(V='curr=\'-1A\' deltaGap=\'0.40000000000000002in\'', ID=630)
+		Map(V='curr=\'-1A\' deltaGap=\'0.45000000000000001in\'', ID=641)
+		Map(V='curr=\'-1A\' deltaGap=\'0.5in\'', ID=652)
+		Map(V='curr=\'-1A\' deltaGap=\'0in\'', ID=542)
+		Map(V='curr=\'10000A\' deltaGap=\'0in\'', ID=540)
+		Map(V='curr=\'1050A\' deltaGap=\'0.050000000000000003in\'', ID=560)
+		Map(V='curr=\'1050A\' deltaGap=\'0.10000000000000001in\'', ID=571)
+		Map(V='curr=\'1050A\' deltaGap=\'0.14999999999999999in\'', ID=582)
+		Map(V='curr=\'1050A\' deltaGap=\'0.20000000000000001in\'', ID=593)
+		Map(V='curr=\'1050A\' deltaGap=\'0.25in\'', ID=604)
+		Map(V='curr=\'1050A\' deltaGap=\'0.29999999999999999in\'', ID=615)
+		Map(V='curr=\'1050A\' deltaGap=\'0.34999999999999998in\'', ID=626)
+		Map(V='curr=\'1050A\' deltaGap=\'0.40000000000000002in\'', ID=637)
+		Map(V='curr=\'1050A\' deltaGap=\'0.45000000000000001in\'', ID=648)
+		Map(V='curr=\'1050A\' deltaGap=\'0.5in\'', ID=659)
+		Map(V='curr=\'1050A\' deltaGap=\'0in\'', ID=549)
+		Map(V='curr=\'1200A\' deltaGap=\'0.050000000000000003in\'', ID=561)
+		Map(V='curr=\'1200A\' deltaGap=\'0.10000000000000001in\'', ID=572)
+		Map(V='curr=\'1200A\' deltaGap=\'0.14999999999999999in\'', ID=583)
+		Map(V='curr=\'1200A\' deltaGap=\'0.20000000000000001in\'', ID=594)
+		Map(V='curr=\'1200A\' deltaGap=\'0.25in\'', ID=605)
+		Map(V='curr=\'1200A\' deltaGap=\'0.29999999999999999in\'', ID=616)
+		Map(V='curr=\'1200A\' deltaGap=\'0.34999999999999998in\'', ID=627)
+		Map(V='curr=\'1200A\' deltaGap=\'0.40000000000000002in\'', ID=638)
+		Map(V='curr=\'1200A\' deltaGap=\'0.45000000000000001in\'', ID=649)
+		Map(V='curr=\'1200A\' deltaGap=\'0.5in\'', ID=660)
+		Map(V='curr=\'1200A\' deltaGap=\'0in\'', ID=550)
+		Map(V='curr=\'1350A\' deltaGap=\'0.050000000000000003in\'', ID=562)
+		Map(V='curr=\'1350A\' deltaGap=\'0.10000000000000001in\'', ID=573)
+		Map(V='curr=\'1350A\' deltaGap=\'0.14999999999999999in\'', ID=584)
+		Map(V='curr=\'1350A\' deltaGap=\'0.20000000000000001in\'', ID=595)
+		Map(V='curr=\'1350A\' deltaGap=\'0.25in\'', ID=606)
+		Map(V='curr=\'1350A\' deltaGap=\'0.29999999999999999in\'', ID=617)
+		Map(V='curr=\'1350A\' deltaGap=\'0.34999999999999998in\'', ID=628)
+		Map(V='curr=\'1350A\' deltaGap=\'0.40000000000000002in\'', ID=639)
+		Map(V='curr=\'1350A\' deltaGap=\'0.45000000000000001in\'', ID=650)
+		Map(V='curr=\'1350A\' deltaGap=\'0.5in\'', ID=661)
+		Map(V='curr=\'1350A\' deltaGap=\'0in\'', ID=551)
+		Map(V='curr=\'1500A\' deltaGap=\'0.050000000000000003in\'', ID=563)
+		Map(V='curr=\'1500A\' deltaGap=\'0.10000000000000001in\'', ID=574)
+		Map(V='curr=\'1500A\' deltaGap=\'0.14999999999999999in\'', ID=585)
+		Map(V='curr=\'1500A\' deltaGap=\'0.20000000000000001in\'', ID=596)
+		Map(V='curr=\'1500A\' deltaGap=\'0.25in\'', ID=607)
+		Map(V='curr=\'1500A\' deltaGap=\'0.29999999999999999in\'', ID=618)
+		Map(V='curr=\'1500A\' deltaGap=\'0.34999999999999998in\'', ID=629)
+		Map(V='curr=\'1500A\' deltaGap=\'0.40000000000000002in\'', ID=640)
+		Map(V='curr=\'1500A\' deltaGap=\'0.45000000000000001in\'', ID=651)
+		Map(V='curr=\'1500A\' deltaGap=\'0.5in\'', ID=662)
+		Map(V='curr=\'1500A\' deltaGap=\'0in\'', ID=552)
+		Map(V='curr=\'150A\' deltaGap=\'0.050000000000000003in\'', ID=554)
+		Map(V='curr=\'150A\' deltaGap=\'0.10000000000000001in\'', ID=565)
+		Map(V='curr=\'150A\' deltaGap=\'0.14999999999999999in\'', ID=576)
+		Map(V='curr=\'150A\' deltaGap=\'0.20000000000000001in\'', ID=587)
+		Map(V='curr=\'150A\' deltaGap=\'0.25in\'', ID=598)
+		Map(V='curr=\'150A\' deltaGap=\'0.29999999999999999in\'', ID=609)
+		Map(V='curr=\'150A\' deltaGap=\'0.34999999999999998in\'', ID=620)
+		Map(V='curr=\'150A\' deltaGap=\'0.40000000000000002in\'', ID=631)
+		Map(V='curr=\'150A\' deltaGap=\'0.45000000000000001in\'', ID=642)
+		Map(V='curr=\'150A\' deltaGap=\'0.5in\'', ID=653)
+		Map(V='curr=\'150A\' deltaGap=\'0in\'', ID=543)
+		Map(V='curr=\'300A\' deltaGap=\'0.050000000000000003in\'', ID=555)
+		Map(V='curr=\'300A\' deltaGap=\'0.10000000000000001in\'', ID=566)
+		Map(V='curr=\'300A\' deltaGap=\'0.14999999999999999in\'', ID=577)
+		Map(V='curr=\'300A\' deltaGap=\'0.20000000000000001in\'', ID=588)
+		Map(V='curr=\'300A\' deltaGap=\'0.25in\'', ID=599)
+		Map(V='curr=\'300A\' deltaGap=\'0.29999999999999999in\'', ID=610)
+		Map(V='curr=\'300A\' deltaGap=\'0.34999999999999998in\'', ID=621)
+		Map(V='curr=\'300A\' deltaGap=\'0.40000000000000002in\'', ID=632)
+		Map(V='curr=\'300A\' deltaGap=\'0.45000000000000001in\'', ID=643)
+		Map(V='curr=\'300A\' deltaGap=\'0.5in\'', ID=654)
+		Map(V='curr=\'300A\' deltaGap=\'0in\'', ID=544)
+		Map(V='curr=\'450A\' deltaGap=\'0.050000000000000003in\'', ID=556)
+		Map(V='curr=\'450A\' deltaGap=\'0.10000000000000001in\'', ID=567)
+		Map(V='curr=\'450A\' deltaGap=\'0.14999999999999999in\'', ID=578)
+		Map(V='curr=\'450A\' deltaGap=\'0.20000000000000001in\'', ID=589)
+		Map(V='curr=\'450A\' deltaGap=\'0.25in\'', ID=600)
+		Map(V='curr=\'450A\' deltaGap=\'0.29999999999999999in\'', ID=611)
+		Map(V='curr=\'450A\' deltaGap=\'0.34999999999999998in\'', ID=622)
+		Map(V='curr=\'450A\' deltaGap=\'0.40000000000000002in\'', ID=633)
+		Map(V='curr=\'450A\' deltaGap=\'0.45000000000000001in\'', ID=644)
+		Map(V='curr=\'450A\' deltaGap=\'0.5in\'', ID=655)
+		Map(V='curr=\'450A\' deltaGap=\'0in\'', ID=545)
+		Map(V='curr=\'600A\' deltaGap=\'0.050000000000000003in\'', ID=557)
+		Map(V='curr=\'600A\' deltaGap=\'0.10000000000000001in\'', ID=568)
+		Map(V='curr=\'600A\' deltaGap=\'0.14999999999999999in\'', ID=579)
+		Map(V='curr=\'600A\' deltaGap=\'0.20000000000000001in\'', ID=590)
+		Map(V='curr=\'600A\' deltaGap=\'0.25in\'', ID=601)
+		Map(V='curr=\'600A\' deltaGap=\'0.29999999999999999in\'', ID=612)
+		Map(V='curr=\'600A\' deltaGap=\'0.34999999999999998in\'', ID=623)
+		Map(V='curr=\'600A\' deltaGap=\'0.40000000000000002in\'', ID=634)
+		Map(V='curr=\'600A\' deltaGap=\'0.45000000000000001in\'', ID=645)
+		Map(V='curr=\'600A\' deltaGap=\'0.5in\'', ID=656)
+		Map(V='curr=\'600A\' deltaGap=\'0in\'', ID=546)
+		Map(V='curr=\'750A\' deltaGap=\'0.050000000000000003in\'', ID=558)
+		Map(V='curr=\'750A\' deltaGap=\'0.10000000000000001in\'', ID=569)
+		Map(V='curr=\'750A\' deltaGap=\'0.14999999999999999in\'', ID=580)
+		Map(V='curr=\'750A\' deltaGap=\'0.20000000000000001in\'', ID=591)
+		Map(V='curr=\'750A\' deltaGap=\'0.25in\'', ID=602)
+		Map(V='curr=\'750A\' deltaGap=\'0.29999999999999999in\'', ID=613)
+		Map(V='curr=\'750A\' deltaGap=\'0.34999999999999998in\'', ID=624)
+		Map(V='curr=\'750A\' deltaGap=\'0.40000000000000002in\'', ID=635)
+		Map(V='curr=\'750A\' deltaGap=\'0.45000000000000001in\'', ID=646)
+		Map(V='curr=\'750A\' deltaGap=\'0.5in\'', ID=657)
+		Map(V='curr=\'750A\' deltaGap=\'0in\'', ID=547)
+		Map(V='curr=\'900A\' deltaGap=\'0.050000000000000003in\'', ID=559)
+		Map(V='curr=\'900A\' deltaGap=\'0.10000000000000001in\'', ID=570)
+		Map(V='curr=\'900A\' deltaGap=\'0.14999999999999999in\'', ID=581)
+		Map(V='curr=\'900A\' deltaGap=\'0.20000000000000001in\'', ID=592)
+		Map(V='curr=\'900A\' deltaGap=\'0.25in\'', ID=603)
+		Map(V='curr=\'900A\' deltaGap=\'0.29999999999999999in\'', ID=614)
+		Map(V='curr=\'900A\' deltaGap=\'0.34999999999999998in\'', ID=625)
+		Map(V='curr=\'900A\' deltaGap=\'0.40000000000000002in\'', ID=636)
+		Map(V='curr=\'900A\' deltaGap=\'0.45000000000000001in\'', ID=647)
+		Map(V='curr=\'900A\' deltaGap=\'0.5in\'', ID=658)
+		Map(V='curr=\'900A\' deltaGap=\'0in\'', ID=548)
 	$end 'VariationIDs'
 	$begin 'LinkedDataList'
 	$end 'LinkedDataList'
 	$begin 'InitialMeshes'
-		M(VID=26, Ver=13, Dir='DV26_V13.imesh/')
+		M(VID=540, Ver=664, Dir='DV540_V664.imesh/')
 	$end 'InitialMeshes'
 	$begin 'MI'
 		$begin 'SubData'
 			ID=0
-			MI(VID=26, Ver=13, Dir='DV26_MI0_V13.sd/')
+			MI(VID=540, Ver=664, Dir='DV540_MI0_V664.sd/')
 		$end 'SubData'
 	$end 'MI'
 $end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=23, Instance=\'SetupDefinition\', Solution=-1, VersionID=664)'='SolutionBlock173'
+	'SolutionKey(SimSetup=23, Instance=\'SolutionDefinition\', Solution=24, VersionID=704)'='SolutionBlock175'
+	'SolutionKey(SimSetup=23, Instance=\'SolutionDefinition\', Solution=25, VersionID=704)'='SolutionBlock176'
+	'SolutionKey(SimSetup=23, Instance=\'curr=\\\'10000A\\\' deltaGap=\\\'0in\\\'\', Solution=-3, VersionID=664)'='SolutionBlock174'
+$end 'BlockMapName'
+$begin 'SolutionBlock173'
+	SimSetupID=23
+	SimSetupName='Setup1'
+	VersionID=664
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		IDDblMap(64, 1, 67, 2, 68, 3, 69, 4, 70, 5, 71, 6, 121, 7, 148, 8, 288, 9, 289, 10, 290, 11, 316, 12, 342, 13, 443, 14, 469, 15)
+		$begin 'DataMap'
+			VID=540
+			Ver=664
+			M(DblID=70, Dir='DV540_S23_V664.cmesh70/')
+			M(DblID=71, Dir='DV540_S23_V664.cmesh71/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'LastPassNumbers'
+		LP(VID=540, Ver=664, P=5)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=540, Ver=664, File='DV540_S23_V664.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=540, Ver=664, Dir='DV540_S23_MI0_V664.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=540, Ver=664, Dir='DV540_S23_V664_MGI/')
+	$end 'MeshGeomInfo'
+$end 'SolutionBlock173'
+$begin 'SolutionBlock174'
+	ConvSetupName='eConv'
+	MaxPasses='14'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(te=1.691997489143759, ee=11.21611844914927, p=1, de_ee='(11.216, N/A)', tri=324)
+	c(te=1.672177088406758, ee=4.817222776109725, p=2, de_ee='(4.8172, 1.1714)', de=1.171420221612224, tri=434)
+	c(te=1.661410446698967, ee=2.231812285538112, p=3, de_ee='(2.2318, 0.64387)', de=0.6438697062910316, tri=567)
+	c(te=1.660917403168831, ee=1.092461963787865, p=4, de_ee='(1.0925, 0.029676)', de=0.02967620259738238, tri=748)
+	c(te=1.660153838705025, ee=0.5734145027109783, p=5, de_ee='(0.57341, 0.045972)', de=0.04597245247408178, tri=974)
+$end 'SolutionBlock174'
+$begin 'SolutionBlock175'
+	SolutionName='AdaptivePass'
+	SolutionID=24
+	V=704
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock175'
+$begin 'SolutionBlock176'
+	SolutionName='LastAdaptive'
+	SolutionID=25
+	V=704
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock176'
+$begin 'OptimetricsResults'
+$end 'OptimetricsResults'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
 $begin '$index$'
 	$begin '$index$'
-		SolutionBlock4(pos=370, lin=11, lvl=0)
-		BlockMapName(pos=1130, lin=41, lvl=0)
-		SolutionBlock11(pos=1609, lin=48, lvl=0)
-		SolutionBlock10(pos=2529, lin=93, lvl=0)
-		SolutionBlock5(pos=3420, lin=136, lvl=0)
-		SolutionBlock1(pos=4378, lin=151, lvl=0)
+		ResponseSurfaceCache(pos=11281, lin=224, lvl=0)
+		SolutionBlock174(pos=10007, lin=183, lvl=0)
+		SolutionBlock175(pos=10725, lin=196, lvl=0)
+		SolutionBlock176(pos=10976, lin=209, lvl=0)
+		SolutionBlock173(pos=9183, lin=153, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=8661, lin=146, lvl=0)
+		OptimetricsResults(pos=11227, lin=222, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=4898, lin=174, lvl=0)
+		$index$(pos=11363, lin=227, lvl=0)
 	$end '$index$'
 $end '$index$'
-'$index$'
-          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

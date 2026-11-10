@@ -1,5 +1,7 @@
 $begin 'CacheDataVersion'
-	DataVersion=9
+	DataVersion=-1
 $end 'CacheDataVersion'
 $begin 'VariableValues'
+	deltaGap='0in'
+	curr='10000A'
 $end 'VariableValues'
